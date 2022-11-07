@@ -1,0 +1,49 @@
+{
+  "name": "pro-scene",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --build",
+    "zip": "gulp zipProduction --build"
+  },
+  "keywords": [],
+  "author": "Basha M.A",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "css-loader": "^6.7.1",
+    "del": "^6.1.1",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-file-include": "latest",
+    "gulp-fonter": "latest",
+    "gulp-group-css-media-queries": "latest",
+    "gulp-if": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-newer": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "latest",
+    "gulp-replace": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-ttf2woff2": "latest",
+    "gulp-version-number": "latest",
+    "gulp-webp": "latest",
+    "gulp-webp-html-nosvg": "latest",
+    "gulp-webp-css": "latest",
+    "gulp-zip": "latest",
+    "sass": "latest",
+    "style-loader": "latest",
+    "webp-converter": "latest",
+    "webpack": "latest",
+    "webpack-stream": "latest"
+  },
+  "dependencies": {
+    "swiper": "latest"
+  }
+}
