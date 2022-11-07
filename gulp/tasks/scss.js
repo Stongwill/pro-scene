@@ -2,7 +2,7 @@ import sass from "sass";
 import gulpSass from "gulp-sass";
 import gulpRename from "gulp-rename"; // переименовывает файлы
 import cleanCss from "gulp-clean-css"; // Минификация css-файла
-import webpCss from "gulp-webp-css"; // Вывод webp-изображений
+import webpCss from "gulp-webpcss"; // Вывод webp-изображений
 import autoprefixer from "gulp-autoprefixer"; // добавляет вендорные префиксы
 import groupCssMediaQueries from "gulp-group-css-media-queries"; // группирует медиа-запросы
 import sourcemaps from 'gulp-sourcemaps';
